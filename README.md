@@ -1,9 +1,13 @@
-### Hello there!
+# Hello there!
 
+
+```python
 #!/usr/bin/python
 # -*- coding: utf-8 -*-
 
-```python
+from earth.life import Human
+
+
 class Arnewitt(Human):
     
     def __init__(self):
