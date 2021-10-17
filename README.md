@@ -25,7 +25,8 @@ class Arnewitt(Human):
         print("Hi, nice to meet you! My name is Arne, I am looking forward to connect and collaborate!")
  
  
- arne = Arnewitt()
- arne.introduce()
+if __name__ == "__main__":
+    arne = Arnewitt()
+    arne.introduce()
  ```
  
