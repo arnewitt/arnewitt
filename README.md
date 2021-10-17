@@ -13,9 +13,9 @@ class Arnewitt(Human):
     def __init__(self):
         self.name = "Arne"
         self.job = "Data Engineer"
-        self.passion = ["Data Engineering", "Data Science", "Software Engineering"]
+        self.passions = ["Data Engineering", "Data Science", "Software Engineering"]
         
-    def introduce(self) -> str:
+    def introduce(self):
         """
         Introduce myself briefly.
         
