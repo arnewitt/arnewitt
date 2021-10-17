@@ -1,16 +1,27 @@
-### Hi there 👋
+### Hello there!
 
-<!--
-**arnewitt/arnewitt** is a ✨ _special_ ✨ repository because its `README.md` (this file) appears on your GitHub profile.
+#!/usr/bin/python
+# -*- coding: utf-8 -*-
 
-Here are some ideas to get you started:
-
-- 🔭 I’m currently working on ...
-- 🌱 I’m currently learning ...
-- 👯 I’m looking to collaborate on ...
-- 🤔 I’m looking for help with ...
-- 💬 Ask me about ...
-- 📫 How to reach me: ...
-- 😄 Pronouns: ...
-- ⚡ Fun fact: ...
--->
+```python
+class Arnewitt(Human):
+    
+    def __init__(self):
+        self.name = "Arne"
+        self.job = "Data Engineer"
+        self.passion = ["Data Engineering", "Data Science", "Software Engineering"]
+        
+    def introduce(self) -> str:
+        """
+        Introduce myself briefly.
+        
+        :param: None
+        :return: Str Introduction
+        """
+        print("Hi, nice to meet you! My name is Arne, I am looking forward to connect and collaborate!")
+ 
+ 
+ arne = Arnewitt()
+ arne.introduce()
+ ```
+ 
