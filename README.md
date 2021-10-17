@@ -20,7 +20,7 @@ class Arnewitt(Human):
         Introduce myself briefly.
         
         :param: None
-        :return: Str Introduction
+        :return: None
         """
         print("Hi, nice to meet you! My name is Arne, I am looking forward to connect and collaborate!")
  
