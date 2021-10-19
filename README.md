@@ -18,7 +18,7 @@ class Arnewitt(Human):
         
     def introduce(self):
         """
-        Introduce myself briefly.
+        Introduce briefly.
         
         :param: None
         :return: None
