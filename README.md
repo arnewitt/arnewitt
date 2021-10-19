@@ -16,18 +16,18 @@ class Arnewitt(Human):
         self.passions = ["Data Engineering", 
                          "Data Science", "Software Engineering"]
         
-    def introduce(self):
+    def greet(self):
         """
         Introduce briefly.
         
         :param: None
         :return: None
         """
-        print("Hi, nice to meet you! My name is Arne, I am looking forward to connect and collaborate!")
+        print("Hi, nice to meet you!")
  
  
 if __name__ == "__main__":
     arne = Arnewitt()
-    arne.introduce()
+    arne.greet()
  ```
  
