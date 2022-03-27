@@ -1,30 +1,24 @@
-# Hello there!
-
-
 ```python
 #!/usr/bin/python
 # -*- coding: utf-8 -*-
 
-from earth.life import Human
 
-
-class Arnewitt(Human):
+class Program():
     
     def __init__(self):
-        self.name = "Arne"
+        self.author = "arnewitt"
         
     def greet(self):
         """
-        Introduce briefly.
+        Greet the world kindly.
         
         :param: None
         :return: None
         """
-        print("Hi, nice to meet you!")
+        print("Hello, World!")
  
  
 if __name__ == "__main__":
-    arne = Arnewitt()
-    arne.greet()
+    p = Program()
+    p.greet()
  ```
- 
