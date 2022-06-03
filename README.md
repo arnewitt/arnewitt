@@ -1,24 +1,6 @@
-```python
-#!/usr/bin/python
-# -*- coding: utf-8 -*-
+### Hello there ☕
+
+I am a Data Engineer at [Accenture](https://www.accenture.com]) with great interest in Data Platform Architecture and Data Science.
 
 
-class Program():
-    
-    def __init__(self):
-        self.author = "arnewitt"
-        
-    def greet(self):
-        """
-        Greet the world kindly.
-        
-        :param: None
-        :return: None
-        """
-        print("Hello, World!")
- 
- 
-if __name__ == "__main__":
-    github_overview = Program()
-    github_overview.greet()
- ```
+Let's boost decision intelligence, generate value and build a secure, sustainable and data driven society. 🚀
